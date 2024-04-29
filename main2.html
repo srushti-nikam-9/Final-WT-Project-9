@@ -1,1 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wine Shop</title>
+    <link rel="stylesheet" href="Dependencies/bootstrap.css">
+    <link rel="stylesheet" href="Dependencies/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="Dependencies/owl.carousel.min.css">
+    <link rel="stylesheet" href="Dependencies/owl.theme.default.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <!-- header section for mobile size  -->
+
+    <div class="off_canvas_overlay"></div>
+
+    <div class="offcanvas_menu offcanvas_two">
+        <div class="canvas_open">
+            <a href="javascript:void(0)">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <div class="offcanvas_menu_wrapper">
+            <div class="canvas_close">
+                <a href="javascript:void(0)">
+                    <i class="fa fa-times"></i>
+                </a>
+            </div>
+            <div class="header_account">
+                <ul>
+                    <li class="language">
+                        <a href="#">
+                            <img src="images/language.png" alt=""> EN <i class="fa fa-angle-down"></i>
+                        </a>
+                        <ul class="dropdown_language">
+                            <li><a href="#">English</a></li>
+                        </ul>
+                    </li>
+                    <li class="currency">
+                        <a href="#">
+                            INR<i class="fa fa-angle-down"></i>
+                        </a>
+                       
+                    </li>
+                    
+
+                </ul>
+            </div>
+
+            <div id="menu" class="text-left">
+                <ul class="offcanvas_main_menu">
+                    <li class="menu-item-has-children active">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="#">Wines</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item-has-children">
+                                <a href="#">SULA</a>
+                                <ul>
+                                    <li><a href="partials/theSource.html">The Source</a></li>
+                                    <li><a href="partials/rasa.html">Rāsā</a></li>
+                                    <li><a href="partials/dindori.html">Dindori Reserve</a></li>
+                                    <li><a href="partials/sulaClassics.html">Sula Classics</a></li>
+                                    
+                                </ul>
+                            </li>
+                            
+                            <li class="menu-item-has-children">
+                                <a href="#">YORK</a>
+                                <ul>
+                                    <li><a href="partials/Sauvignon.html">Sauvignon Blanc</a></li>
+                                    <li><a href="partials/Chenin.html">Chenin Blanc</a></li>
+                                    <li><a href="partials/Riesling.html">Riesling</a></li>
+                                    <li><a href="partials/late.html">Late Harvest</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="#">Others</a>
+                                    <ul>
+                                        <li><a href="partials/Champagne.html"><b>Champagne & Sparkling</b></a></li>
+                                        <li><a href="partials/rose.html"><b>Rose Wine</b></a></li>
+                                        <li><a href="partials/sula_satori.html"><b>Sula Satori</b></a></li>
+                                        <li><a href="partials/shiraz.html"><b>Shiraz Cabernet</b></a></li>
+                                    </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <header>
+        <div class="main_header header_transparent header-mobile-m">
+            <div class="header_container sticky-header">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-lg-2" style="display: inline-block;">
+                            <div class="logo">
+                                <a href="index.html"> <img src="images/logo.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6" style="display: inline-block;">
+                            <div class="main_menu menu_two menu_position">
+                                <nav>
+                                    <ul>
+                                        <li>
+                                            <a href="index.html" class="active">Home</a>
+                                        </li>
+                                        <li class="mega_items">
+                                            <a href="#">Wines <i class="fa fa-angle-down"></i></a>
+                                            <div class="mega_menu">
+                                                <ul class="mega_menu_inner">
+                                                    <li>
+                                                        <a href="#">SULA</a>
+                                                        <ul>
+                                                            <li><a href="partials/theSource.html">The Source</a></li>
+                                                            <li><a href="partials/rasa.html">Rāsā</a></li>
+                                                            <li><a href="partials/dindori.html">Dindori Reserve</a></li>
+                                                            <li><a href="partials/sulaClassics.html">Sula Classics</a></li>
+                                                            
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">YORK</a>
+                                                        <ul>
+                                                            <li><a href="partials/Sauvignon.html">Sauvignon Blanc</a></li>
+                                                            <li><a href="partials/Chenin.html">Chenin Blanc</a></li>
+                                                            <li><a href="partials/Riesling.html">Riesling</a></li>
+                                                            <li><a href="partials/late.html">Late Harvest</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Others</a>
+                                                        <ul>
+                                                            <li><a href="partials/Champagne.html"><b>Champagne & Sparkling</b></a></li>
+                                                            <li><a href="partials/rose.html"><b>Rose Wine</b></a></li>
+                                                            <li><a href="partials/sula_satori.html"><b>Sula Satori</b></a></li>
+                                                            <li><a href="partials/shiraz.html"><b>Shiraz Cabernet</b></a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li><a href="partials/aus.html">About Us</a></li>
+                                       
+
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4" style="display: inline-block;">
+                            <div class="header_top_right">
+                                
+                                <div class="header_account">
+                                    <ul>
+                                        
+                                        <li class="language">
+                                            <a href="#">
+                                                <img src="images/language.png" alt=""> EN <i
+                                                    class="fa fa-angle-down"></i>
+                                            </a>
+                                            <ul class="dropdown_language">
+                                                <li><a href="#">English</a></li>
+                                               
+                                            </ul>
+                                        </li>
+                                        <li class="currency">
+                                            <a href="#">
+                                                INR<i class="fa fa-angle-down"></i>
+                                            </a>
+                                        </li>
+
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="pt-pb">
+
+        <div>
+            <div class="master-slider" id="masterslider">
+                <div class="ms-slide slide-1" style="z-index: 10;">
+                    <img src="images/wbg1.jpg" alt="">
+
+                    <h3 class="ms-layer bold-title" style="left: 20px; top: 250px; color: #d9932f; font-weight: 400;"
+                        data-effect="right(250)" data-duration="3500" data-delay="200" data-ease="easeOutExpo">The Best
+                        Collections 2024</h3>
+                    <h3 class="ms-layer light-title"
+                        style="left: 20px; top: 300px; color: #fff; font-weight: 900; letter-spacing: 1px;"
+                        data-effect="left(short)" data-duration="3500" data-delay="300" data-ease="easeOutExpo">
+                        AMAZING
+                    </h3>
+                    <h1 class="ms-layer light-title"
+                        style="left: 20px; top: 350px; color: #fff; font-weight: 900; letter-spacing: 0.5px;"
+                        data-effect="left(short)" data-duration="3500" data-delay="350" data-ease="easeOutExpo">WINESHOP
+                    </h1>
+                    <a href="#" class="ms-layer"
+                        style="left: 20px; top: 424px; color: #fff; font-weight: 400; letter-spacing: 0.5px; margin: 0px ; padding: 0px; font-size: 14px; line-height: 20px; border: 1px solid #fff; padding: 10px 20px;"
+                        data-effect="left(short)" data-duration="3500" data-delay="300" data-ease="easeOutExpo"><button type="button"  onClick="document.getElementById('xyz').scrollIntoView();" style="color: black">SHOP NOW</button></a>
+                </div>
+                <div class="ms-slide slide-2" style="z-index: 13;" data-delay="10">
+                    <img src="images/wbg2.jpg" alt="">
+
+                    <h3 class="ms-layer bold-title" style="left: 20px; top: 250px; color: #d9932f; font-weight: 400;"
+                        data-effect="right(250)" data-duration="3500" data-delay="200" data-ease="easeOutExpo">The Best
+                        Collections 2024</h3>
+                    <h3 class="ms-layer light-title"
+                        style="left: 20px; top: 300px; color: #fff; font-weight: 900; letter-spacing: 1px;"
+                        data-effect="left(short)" data-duration="3500" data-delay="300" data-ease="easeOutExpo">
+                        AMAZING
+                    </h3>
+                    <h1 class="ms-layer light-title"
+                        style="left: 20px; top: 350px; color: #fff; font-weight: 900; letter-spacing: 0.5px;"
+                        data-effect="left(short)" data-duration="3500" data-delay="350" data-ease="easeOutExpo">WINESHOP
+                    </h1>
+                    <a href="#" class="ms-layer"
+                        style="left: 20px; top: 424px; color: #fff; font-weight: 400; letter-spacing: 0.5px; margin: 0px ; padding: 0px; font-size: 14px; line-height: 20px; border: 1px solid #fff; padding: 10px 20px;"
+                        data-effect="left(short)" data-duration="3500" data-delay="300" data-ease="easeOutExpo"><button type="button"  onClick="document.getElementById('xyz').scrollIntoView();" style="color: black">SHOP NOW</button></a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="clearfix"></div>
+
+    <section class="no-padding">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-md-3 col-sm-4">
+                    <p class="lineeffect">
+                        <a href="#">
+                            <img src="images/p2.jpg" class="img-responsive img-fill" alt="">
+                        </a>
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-4">
+                    <p class="lineeffect">
+                        <a href="#">
+                            <img src="images/the_glass.jpg" class="img-responsive img-fill" alt="">
+                        </a>
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-4">
+                    <p class="lineeffect">
+                        <a href="#">
+                            <img src="images/p3.jpg" class="img-responsive img-fill" alt="">
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="category-img">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                    <h4 class="cat-link">
+                        <a href="#">
+                            <img src="images/vvv.jpeg" class="img-responsive" alt="">
+                            Vintage <br> Wines
+                        </a>
+                    </h4>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                    <h4 class="cat-link">
+                        <a href="#">
+                            <img src="images/xxx.jpeg" class="img-responsive" alt="">
+                            Red <br> Wines
+                        </a>
+                    </h4>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                    <h4 class="cat-link">
+                        <a href="#">
+                            <img src="images/yyy.jpeg" class="img-responsive" alt="">
+                            White <br> Wines
+                        </a>
+                    </h4>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                    <h4 class="cat-link">
+                        <a href="#">
+                            <img src="images/rrr.jpeg" class="img-responsive" alt="">
+                            Rose <br> Wines
+                        </a>
+                    </h4>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                    <h4 class="cat-link">
+                        <a href="#">
+                            <img src="images/mmm.jpeg" class="img-responsive" alt="">
+                            Non-Vintage <br> Wines
+                        </a>
+                    </h4>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                    <h4 class="cat-link">
+                        <a href="#">
+                            <img src="images/sss.jpeg" class="img-responsive" alt="">
+                            Sparkling <br> Wines
+                        </a>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="super-deal-section" style="background-image: url(images/bg.png);">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-8 col-md-push-6 col-sm-push-4">
+                    <div class="super-deal">
+                        <h1>Hand-Picked
+                            <br>
+                            <span style="font-weight: 100;">Collection</span>
+                        </h1>
+                        <h2>Save More, Pour More</h2>
+                        <p>Samruddhi Wines Mart is first experiential liquor store with Resto-bar in the wine capital of the country, where you can get a hold on handpicked collection of all the international wines from the finest Vineyards And Spirits around the world.</p>
+                        <div class="clearfix"></div>
+                        
+                        <button type="button"  onClick="document.getElementById('xyz').scrollIntoView();" style="color: black">SHOP NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="product-slide">
+        <div class="container">
+            <div class="row">
+                <div class="dark-headingstyle-one text-center">
+                    <h2 class="dart-heading" id="xyz">Featured Products</h2>
+                    <img src="images/Icon-sep.png" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div role="tabpanel" class="tabSix text-center">
+                        <ul id="tabSix" class="nav nav-tabs">
+                            <li class="active">
+                                <a href="#contentSix-one" data-toggle="tab">
+                                    <p>Best Seller</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#contentSix-two" data-toggle="tab">
+                                    <p>New Arrival</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#contentSix-three" data-toggle="tab">
+                                    <p>Most Favourited</p>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <div class="tab-content">
+                            <!-- first tab  -->
+                            <div class="tab-pane in active" id="contentSix-one">
+                                <div class="tab-pane" id="contentSix-2">
+                                    <div class="owl-carousel owl-theme product-slider">
+                                        <!-- product starts  -->
+                                        <div class="product-main">
+                                            <figure class="dark-theme">
+                                                <img src="images/gro.jpeg" alt="">
+                                                <div class="ribbon"><span>NEW</span></div>
+                                                
+                                            </figure>
+                                            <div class="block-caption1">
+                                                <h4>The Source - Grenache Rose</h4>
+                                                <div class="clear"></div>
+                                                <div class="rpice">
+                                                    <span class="sell-price">Rs. 990</span>
+                                                    <span class="actual-price">Rs. 1195</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- product ends  -->
+                                        <!-- product starts  -->
+                                        <div class="product-main">
+                                            <figure class="dark-theme">
+                                                <img src="images/cbl.jpeg" alt="">
+
+                                                
+                                            </figure>
+                                            <div class="block-caption1">
+                                                <h4>The Source - Chenin Blanc Reserve</h4>
+                                                <div class="clear"></div>
+                                                <div class="rpice">
+                                                    <span class="sell-price">Rs. 990</span>
+                                                    <span class="actual-price">Rs. 1050</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-main">
+                                            <figure class="dark-theme">
+                                                <img src="images/ts_sb.jpeg" alt="">
+
+                                                
+                                                
+                                            </figure>
+                                            <div class="block-caption1">
+                                                <h4>The Source - Sauvignon Blanc</h4>
+                                                <div class="clear"></div>
+                                                <div class="rpice">
+                                                    <span class="sell-price">Rs. 990</span>
+                                                    <span class="actual-price">Rs. 1195</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-main">
+                                            <figure class="dark-theme">
+                                                <img src="images/ts_cs.jpeg" alt="">
+                                                
+                                            </figure>
+                                            <div class="block-caption1">
+                                                <h4>The Source - Cabernet Sauvignon</h4>
+                                                <div class="clear"></div>
+                                                <div class="rpice">
+                                                    <span class="sell-price">Rs. 1200</span>
+                                                    <span class="actual-price">Rs. 1350</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-main">
+                                            <figure class="dark-theme">
+                                                <img src="images/sula_bt.jpeg" alt="">
+                                                
+                                            </figure>
+                                            <div class="block-caption1">
+                                                <h4>Sula Brut Tropicale</h4>
+                                                <div class="clear"></div>
+                                                <div class="rpice">
+                                                    <span class="sell-price">Rs. 1300</span>
+                                                    <span class="actual-price">Rs. 1450</span>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="product-main">
+                                            <figure class="dark-theme">
+                                                <img src="images/R-Cs.jpeg" alt="">
+                                                
+                                            </figure>
+                                            <div class="block-caption1">
+                                                <h4>Rāsā - Cabernet Sauvignon</h4>
+                                                <div class="clear"></div>
+                                                <div class="rpice">
+                                                    <span class="sell-price">Rs. 1900</span>
+                                                    <span class="actual-price">Rs. 2100</span>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- second tab  -->
+                            <div class="tab-pane" id="contentSix-two">
+                                <div class="owl-carousel owl-theme product-slider">
+                                    <div class="product-main">
+                                        <figure class="dark-theme">
+                                            <img src="images/dr-v.jpeg" alt="">
+                                            
+                                        </figure>
+                                        <div class="block-caption1">
+                                            <h4>Dindori Reserve - Viognier</h4>
+                                            <div class="clear"></div>
+                                            <div class="rpice">
+                                                <span class="sell-price">Rs. 650</span>
+                                                <span class="actual-price">Rs. 850</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-main">
+                                        <figure class="dark-theme">
+                                            <img src="images/mosc.jpeg" alt="">
+
+                                            
+                                        </figure>
+                                        <div class="block-caption1">
+                                            <h4>The Source - Moscato</h4>
+                                            <div class="clear"></div>
+                                            <div class="rpice">
+                                                <span class="sell-price">Rs. 1250</span>
+                                                <span class="actual-price">Rs. 1495</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-main">
+                                        <figure class="dark-theme">
+                                            <img src="images/tspn.jpeg" alt="">
+
+                                            
+                                        </figure>
+                                        <div class="block-caption1">
+                                            <h4>The Source - Pinot Noir</h4>
+                                            <div class="clear"></div>
+                                            <div class="rpice">
+                                                <span class="sell-price">Rs. 1000</span>
+                                                <span class="actual-price">Rs. 1250</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-main">
+                                        <figure class="dark-theme">
+                                            <img src="images/r_zin.jpeg" alt="">
+                                            <div class="ribbon"><span>New</span></div>
+                                            
+                                        </figure>
+                                        <div class="block-caption1">
+                                            <h4>Rāsā - Zinfandel</h4>
+                                            <div class="clear"></div>
+                                            <div class="rpice">
+                                                <span class="sell-price">Rs. 1500</span>
+                                                <span class="actual-price">Rs. 1795</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-main">
+                                        <figure class="dark-theme">
+                                            <img src="images/R_Sy.jpeg" alt="">
+                                            
+                                        </figure>
+                                        <div class="block-caption1">
+                                            <h4>Rāsā - Syrah</h4>
+                                            <div class="clear"></div>
+                                            <div class="rpice">
+                                                <span class="sell-price">Rs. 1550</span>
+                                                <span class="actual-price">Rs. 1795</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- third tab  -->
+                            <div class="tab-pane" id="contentSix-three">
+                                <div class="owl-carousel owl-theme product-slider">
+                                    <div class="product-main">
+                                        <figure class="dark-theme">
+                                            <img src="images/y_rz.jpeg" alt="">
+                                            
+                                        </figure>
+                                        <div class="block-caption1">
+                                            <h4>York - Zinfandel Rose</h4>
+                                            <div class="clear"></div>
+                                            <div class="rpice">
+                                                <span class="sell-price">Rs. 650</span>
+                                                <span class="actual-price">Rs. 825</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-main">
+                                        <figure class="dark-theme">
+                                            <img src="images/y_cb.jpeg" alt="">
+
+                                            
+                                        </figure>
+                                        <div class="block-caption1">
+                                            <h4>York - Late Harvest Chenin Blanc</h4>
+                                            <div class="clear"></div>
+                                            <div class="rpice">
+                                                <span class="sell-price">Rs. 850</span>
+                                                <span class="actual-price">Rs. 1095</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-main">
+                                        <figure class="dark-theme">
+                                            <img src="images/y_sr.jpeg" alt="">
+
+                                            
+                                        </figure>
+                                        <div class="block-caption1">
+                                            <h4>York - Sparkling Rose</h4>
+                                            <div class="clear"></div>
+                                            <div class="rpice">
+                                                <span class="sell-price">Rs. 1300</span>
+                                                <span class="actual-price">Rs. 1595</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-main">
+                                        <figure class="dark-theme">
+                                            <img src="images/dr_s.jpeg" alt="">
+                                            <div class="ribbon"><span>New</span></div>
+                                            
+                                        </figure>
+                                        <div class="block-caption1">
+                                            <h4>Dindori Reserve - Shiraz</h4>
+                                            <div class="clear"></div>
+                                            <div class="rpice">
+                                                <span class="sell-price">Rs. 950</span>
+                                                <span class="actual-price">Rs. 1295</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-main">
+                                        <figure class="dark-theme">
+                                            <img src="images/dr_cr.jpeg" alt="">
+                                            
+                                        </figure>
+                                        <div class="block-caption1">
+                                            <h4>Dindori Reserve - Chardonnay</h4>
+                                            <div class="clear"></div>
+                                            <div class="rpice">
+                                                <span class="sell-price">Rs. 895</span>
+                                                <span class="actual-price">Rs. 1050</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- row ends  -->
+        </div>
+        <!-- container ends  -->
+    </section>
+
+    <section class="testi" style="background-image: url(images/bg1.png);">
+        <div class="container">
+            <div class="row">
+                <div class="dart-headingstyle-one text-center">
+                    <h2 class="dart-heading">Customer Review</h2>
+                    <img src="images/Icon-sep.png" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="carousel slide" id="quote-carousel" data-interval="3000">
+                        <ol class="carousel-indicators">
+                            <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#quote-carousel" data-slide-to="1"></li>
+                            <li data-target="#quote-carousel" data-slide-to="2"></li>
+                            
+                        </ol>
+
+                        <div class="carousel-inner">
+                            <div class="active item">
+                                <blockquote>
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <div class="profile-circle">
+                                                <img src="images/neeraj.jpg" class="img-circle" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-9">
+                                            <p>Samruddhi Wines stands out from the typical wine shops due to its unique exterior, which is a haven for vintage cars. While the interior of the shop is similar to other wine shops, they offer a range of alcoholic beverages from hard liquors to beers. The presence of several vintage cars parked in front of the shop adds to its cool and distinctive vibe.</p>
+                                            <span class="name dart-fs-16">Neeraj Punia</span>
+                                            <span class="position dart-fs-12"></span>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <div class="item">
+                                <blockquote>
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <div class="profile-circle">
+                                                <img src="images/foodgasm.webp" class="img-circle" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-9">
+                                            <p>Best liquor store in Nashik ❤️🥳..Many imported and Indian brands and varieties available. Highly recommended if you looking to to shop some nice wines or liquor.</p>
+                                            <span class="name dart-fs-16">Nashik Foodgasm</span>
+                                            <span class="position dart-fs-12"></span>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <div class="item">
+                                <blockquote>
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <div class="profile-circle">
+                                                <img src="images/prth1.jpg" class="img-circle" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-9">
+                                            <p>Very well maintained and managed. Many imported and Indian brands and varieties available. Highly recommended if you looking to to shop some nice wines or liquor.</p>
+                                            <span class="name dart-fs-16">Prathamesh Nakhare</span>
+                                            <span class="position dart-fs-12"></span>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="blog">
+        <div class="container">
+            <div class="row">
+                <div class="dart-headingstyle-one text-center">
+                    <h2 class="dart-heading">Latest Blog</h2>
+                    <img src="images/Icon-sep.png" alt="">
+                </div>
+            </div>
+            <div class="row no-gutter">
+                <div class="col-md-4 col-sm-4">
+                    <div class="blog-wrapper">
+                        <div class="blog-img ImageWrapper">
+                            <a href="#" class="bubble-top">
+                                <img src="images/i2.jpg" class="img-responsive" alt="">
+                                <div class="PStyleHe"></div>
+                            </a>
+                        </div>
+                        <div class="blog-content">
+                            <h4 class="blog-title"><a href="#">Indri Whisky has carved a place for itself as one of the best whiskies globally</a></h4>
+                            <p class="post-date">October 7, 2022</p>
+                            <p class="post-content">Known for putting Indian single malts on the global map, Kumar talks about what sets Indri apart, and why comparing single malts from India and Scotland is all about aging</p>
+                            <a href="https://www.forbesindia.com/amp/article/lifes/indri-whisky-has-carved-a-place-for-itself-as-one-of-the-best-whiskies-in-not-just-india-but-the-world-surrinder-kumar-master-blender-piccadily-distilleries/88831/1" class="read-more">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="blog-wrapper">
+
+                        <div class="blog-content">
+                            <h4 class="blog-title"><a href="#">Jack Daniels are one of the best</a></h4>
+                            <p class="post-date">February 8, 2024</p>
+                            <p class="post-content">The Jack Daniels’ brand is known for its smooth taste and robust aroma and is revered around the world.
+Arguably, it has become the most recognizable spirit of its kind, making it an icon of the liquor industry.</p>
+                            <a href="https://www.sipdark.com/blogs/sipdark-blog/5-details-that-make-jack-daniels-stand-a-little-taller" class="read-more">Read More</a>
+                        </div>
+                        <div class="blog-img ImageWrapper">
+                            <a href="#" class="bubble-bottom">
+                                <img src="images/jd1.webp" class="img-responsive" alt="">
+                                <div class="PStyleHe"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="blog-wrapper">
+                        <div class="blog-img ImageWrapper">
+                            <a href="#" class="bubble-top">
+                                <img src="images/bs.jpg" class="img-responsive" alt="">
+                                <div class="PStyleHe"></div>
+                            </a>
+                        </div>
+                        <div class="blog-content">
+                            <h4 class="blog-title"><a href="#">The Real Jewel of Bombay Sapphire Gin - Dr. Anne Brock</a></h4>
+                            <p class="post-date">September 9, 2020</p>
+                            <p class="post-content">With a Ph.D. in Organic Chemistry, Dr. Anne Brock talks about the intricacies involved in a Distillery</p>
+                            <a href="https://londonspiritscompetition.com/en/blog/interviews-2518/the-real-jewel-of-bombay-sapphire-gin-dr-anne-brock-453.htm" class="read-more">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="dart-headingstyle-one t-mb-20 text-left t-pt-40 t-pb-30">
+                        <h2 class="dart-heading">Newsletter</h2>
+                        <p>Sign Up to our newsletter and save 20% of on next purchase</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <form action="#" class="form-inline">
+                        <div class="newsletter t-pt-70 t-pb-30">
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Email...">
+                            </div>
+                            <button type="submit" class="btn btn-default" ><a href="mailto:raitanmay41@gmail.com">Subscribe</a> <i
+                                    class="fa fa-envelope"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="footer-block about">
+                        <h4 class="footer-title">Company</h4>
+                        <hr class="footer_border">
+                        <ul class="list-unstyled">
+                            <li><a href="partials/aus.html">About Us</a></li>
+                            <li><a href="tel:+91-7066043518">Contact Us</a></li>
+                            <li><a href="https://maps.app.goo.gl/re6XinvcgWcoSMEZ6">Our Locations</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                
+                
+                <div class="col-md-6 col-sm-6">
+                    <div class="footer-block about">
+                        <h4 class="footer-title">Connect With Us</h4>
+                        <hr class="footer_border">
+                        <div class="contact_footer">
+                            <div class="footer_icon">
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-pinterest"></i></a>
+                                
+                                <a href="#"><i class="fab fa-google"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                                <div class="contact_footer">
+                                    <div class="footer_icon">
+                                    
+                                    <div>
+                                        <div><i class="fa fa-paper-plane"></i>Nashik, Maharashtra</div>
+                                        <div><i class="fa fa-envelope"></i><a href="mailto:raitanmay41@gmail.com">raitanmay41@gmail.com</a>
+                                        </div>
+                                        <div><i class="fa fa-phone"></i><a href="tel:+91-7066043518">+91-7066043518</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom_outer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footerbottom_link">
+                        <div class="card">
+                            <ul class="list-inline">
+                                <li><img src="images/card-1.png" alt="" class="img-responsive"></li>
+                                <li><img src="images/card-2.png" alt="" class="img-responsive"></li>
+                                <li><img src="images/card-4.png" alt="" class="img-responsive"></li>
+                                <li><img src="images/card-5.png" alt="" class="img-responsive"></li>
+                                <li><img src="images/card-6.png" alt="" class="img-responsive"></li>
+                                <li><img src="images/card-7.png" alt="" class="img-responsive"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="copyright">
+                            <p>Wine Shop &copy; 2024. Made with <i class="fa fa-heart"></i>by SSTT</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="Dependencies/jquery.min.js"></script>
+    <script src="Dependencies/jquery.easing.min.js"></script>
+    <script src="Dependencies/bootstrap.min.js"></script>
+    <script src="Dependencies/masterslider.min.js"></script>
+    <script src="Dependencies/owl.carousel.min.js"></script>
+    <script src="main.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
